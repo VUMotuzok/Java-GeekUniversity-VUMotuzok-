@@ -2,6 +2,9 @@ package ru.geekbrains.motuzok.geekuniversity.java.level1;
 
 public class HomeWorkLesson2 {
     public static void main(String[] args) {
+        checkNumber(1, 2);
+        checkNegative(-2);
+        System.out.println(checkNegativeBoolean(1));
         System.out.println(leapYear(1956));
 
     }
